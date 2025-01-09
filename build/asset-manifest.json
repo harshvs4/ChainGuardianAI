@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.890bf217.css",
+    "main.js": "/static/js/main.3474b5d0.js",
+    "static/media/ChainGuardianAI.png": "/static/media/ChainGuardianAI.c35d0f1948979343cb37.png",
+    "index.html": "/index.html",
+    "main.890bf217.css.map": "/static/css/main.890bf217.css.map",
+    "main.3474b5d0.js.map": "/static/js/main.3474b5d0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.890bf217.css",
+    "static/js/main.3474b5d0.js"
+  ]
+}

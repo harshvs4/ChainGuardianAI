@@ -1,0 +1,99 @@
+/* The hero can remain as is or you can style it differently */
+.regulatory-hero {
+  background-color: #f3f3f3;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.regulatory-hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.regulatory-hero-content p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+/* Container for all compliance news */
+.compliance-wrapper {
+  padding: 2rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.compliance-wrapper h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.compliance-intro {
+  color: #666;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+/* Parent container that holds all your cards */
+.compliance-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  /* Tells each grid row to automatically fill the available space */
+  grid-auto-rows: 1fr;
+  gap: 1.5rem; 
+  /* or grid-gap: 1.5rem; */
+  align-items: stretch; /* ensures cells/cards stretch to fill row height */
+}
+
+/* Each individual card */
+.compliance-card {
+  display: flex;            /* so we can align contents inside */
+  flex-direction: column;   /* stack title, description, etc. vertically */
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Force the 'Read More' / 'View Full Text' area down if needed */
+.compliance-link, 
+.compliance-details {
+  margin-top: auto; /* push these to the bottom of the card */
+}
+
+/* Title, description, link */
+.compliance-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.compliance-desc {
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.compliance-link {
+  color: var(--dl-color-theme-primary1);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.compliance-link:hover {
+  text-decoration: underline;
+}
+
+/* Expandable full text */
+.compliance-details {
+  margin-top: 1rem;
+  background-color: #fafafa;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #eee;
+}
+
+.compliance-details summary {
+  font-weight: 600;
+  cursor: pointer;
+}
