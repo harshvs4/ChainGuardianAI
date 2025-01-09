@@ -239,7 +239,7 @@ Modern blockchain ecosystems are rapidly evolving, with an increasing number of 
 
 ## Contributing
 
-We welcome contributions, bug reports, and feature requests! Feel free to open an issue or submit a pull request in any of the following repositories:
+I welcome contributions, bug reports, and feature requests! Feel free to open an issue or submit a pull request in any of the following repositories:
 
 - [ChainGuardianAI Issues](https://github.com/harshvs4/ChainGuardianAI/issues)
 - [ChainGuardianBlockchain Issues](https://github.com/harshvs4/ChainGuardianBlockchain/issues)
